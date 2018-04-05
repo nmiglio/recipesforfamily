@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Bolognese sauce"
-date:   2018-04-03
-excerpt: "a meat-based sauce originating from Bologna.. with a twist!"
+title:  "Geschnetzeltes"
+date:   2018-04-02
+excerpt: "sliced meat (???)"
 ---
 
 ## Frequency: Frequent
