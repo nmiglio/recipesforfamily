@@ -5,15 +5,14 @@ date:   2018-04-05
 excerpt: "Sausages, onions, gravy and mash potatoes"
 ---
 
-## Intro
 
+## Details
 * Family Rating:
 * Frequency: Frequent
 * Source
 * own
 
 ## Ingredients
-
 * Bangers (fresh sausages): 4-5 per adult + 1-2 per kid
   * alternative: Rostbratwürstchen 500-600g for 4
 * an onion finely sliced
