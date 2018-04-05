@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Chicken Biryani"
+title:  "Natasha's Chicken Fajitas"
 date:   2018-04-05
-excerpt: "A delicious savory rice dish loaded with spicy marinated chicken"
+excerpt: "Chicken Fajitas"
 ---
 
 ## Details
