@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Chicken Biryani"
+date:   2018-04-05
+excerpt: "A delicious savory rice dish loaded with spicy marinated chicken"
+---
+
+
 ## Details
 
 * Family review: we LOVE it!
