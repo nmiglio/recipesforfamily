@@ -9,6 +9,7 @@ sitemap:
     lastmod: 2018-04-03
     changefreq: weekly
 ---
+
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
@@ -19,100 +20,94 @@ sitemap:
 <html>
 	<head>
     {% include head.html %}
-
 	</head>
 	<body class="is-loading">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+	<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-            <h1>{{site.title}}</h1>
-						<h2> delicious meals for busy dads ;-)</h2>
-						<p>On this page you will find a collections of recipes curated by the members of the Meetup known as munichdads. 
-							The recipes have been tested and approved by our families and specially by our kids, our most severe judges!</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+		<!-- Intro -->
+			<div id="intro">
+		        <h1>{{site.title}}</h1>
+			<h2> delicious meals for busy dads ;-)</h2>
+			<p> On this page you will find a collections of recipes curated by the members of the Meetup known as munichdads. 
+			    The recipes have been tested and approved by our families and specially by our kids, our most severe judges!</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+			</div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
+		<!-- Header -->
+			<header id="header">
+				<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+			</header>
 
-				<!-- Nav -->
-					<nav id="nav">
-
+		<!-- Nav -->
+			<nav id="nav">
             {% include nav.html %}
-
-						<ul class="icons">
+				<ul class="icons">
               <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
               <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
               <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
               <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+				</ul>
+			</nav>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Massively is a versatile Jekyll theme</a></h2>
-									<p>Preparing something to eat that is healthy and quick is one of the daunting tasks of being a parent. <br />
-										In these pages you can find some ideas to mix up a bit the usual menu</p>
-								</header>
+		<!-- Main -->
+			<div id="main">
+			<!-- Featured Post -->
+				<article class="post featured">
+					<header class="major">
+						<h2><a href="#">90% of preparing dinner is choosing what you are gonna prepare for dinner</a></h2>
+						<p> Preparing something to eat that is healthy and quick is one of the daunting tasks of being a parent. <br />
+					    	In these pages you can find some ideas to mix up a bit the usual menu</p>
+					</header>
 		<a href="#" class="image main"><img src="{{ "/images/dog_funny.jpg" | absolute_url }}" alt="" /></a>
                 <p> Bla bla bla, bla bla bla bli bli bla. Bla bla bla </p>
 		<p> Bla bla bla, bla bla bla bli bli bla. Bla bla bla </p>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
+				</article>
+			<!-- Posts -->
+				<section class="posts">
                 {% for post in site.posts limit:3 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
+  				<article>
+  					<header>
+  						<span class="date">{{ post.date | date_to_string }}</span>
+  						<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+  					</header>
+  					<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  					<p>{{ post.excerpt }}</p>
+  					<ul class="actions">
+  						<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+  					</ul>
+  				</article>
                   {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</h2>
-  									</header>
-
-  								</article>
+                  		<article>
+  					<header>
+  						<h2><a href="#">Sponsored</h2>
+  					</header>
+				</article>
                   {% endif %}
                 {% endfor %}
 
-							</section>
+				</section>
 
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
+		<!-- Footer -->
+			<footer>
+                		<ul class="actions">
+                  		<li><a href="{{ "/blog/" | absolute_url }}" class="button">All Recipes</a></li>
+                		</ul>
+			</footer>
 
-					</div>
-
-				<!-- Footer -->
+		</div>
+		<!-- Footer -->
         {% include foot.html %}
 
-			</div>
+	</div>
 
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
+	<!-- Scripts -->
+	{% include scripts-main.html %}
+        {% include tracking.html %}
 
 	</body>
 </html>
