@@ -35,7 +35,8 @@ sass:
 # personal
 location:           Munich, Germany
 gmaps:              https://www.google.com/maps/place/Munich
-meetup:             https://www.meetup.com/Munich-Dads-Meetup
+meetup:             Munich-Dads-Meetup
+meetup-url:         https://www.meetup.com/Munich-Dads-Meetup
 email:              munichdads@gmail.com
 
 # Gems
