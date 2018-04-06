@@ -57,22 +57,23 @@ sitemap:
 			<!-- Featured Post -->
 				<article class="post featured">
 					<header class="major">
-						<h2><a href="#">90% of preparing dinner is choosing what you'll have for dinner</a></h2>
+						<h2>90% of preparing dinner is choosing what you'll have for dinner</h2>
 						<p> Preparing something to eat that is healthy and quick is one of the daunting tasks of being a parent. <br />
 					    	In these pages you can find some ideas to mix up a bit the usual menu</p>
 					</header>
 		<a href="#" class="image main"><img src="{{ "/images/dog_funny.jpg" | absolute_url }}" alt="" /></a>
-                <p> Bla bla bla, bla bla bla bli bli bla. Bla bla bla </p>
-		<p> Bla bla bla, bla bla bla bli bli bla. Bla bla bla </p>
+                <p> This pages are the nicer web version of the GitHub repository <a href="https://github.com/dernorberto/recipesforfamily"> recipesforfamily </a> </p>
+		<p> Feel free to clone and contribute to this repo. We are looking for recipes that the family loves and don't require an apprenticeship with Mario Batali.</p>
+                <p> This repo is related to https://github.com/dernorberto/munichdads</p>
 				</article>
 			<!-- Posts -->
 				<section class="posts">
-                {% for post in site.posts limit:3 %}
+                {% for post in site.posts limit:4 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
   				<article>
   					<header>
   						<span class="date">{{ post.date | date_to_string }}</span>
-  						<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+  						<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
   					</header>
   					<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
   					<p>{{ post.excerpt }}</p>
@@ -80,13 +81,13 @@ sitemap:
   						<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
   					</ul>
   				</article>
-                  {% if mod3 == 0 %}
-                  		<article>
-  					<header>
-  						<h2><a href="#">Sponsored</h2>
-  					</header>
-				</article>
-                  {% endif %}
+                  <!-- {% if mod3 == 0 %}
+			<article>
+				<header>
+				<h2><a href="#">Sponsored</a></h2>
+				</header>
+			</article>
+                  {% endif %} -->
                 {% endfor %}
 
 				</section>
