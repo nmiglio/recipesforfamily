@@ -7,6 +7,7 @@ description:        "delicious meals for busy dads"
 locale:             de_DE
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nmiglio.github.io/recipesforfamily" # the base hostname & protocol for your site
+disqus_shortname: recipesforfamily
 
 defaults:
 - scope:
