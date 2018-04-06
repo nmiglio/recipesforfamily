@@ -2,18 +2,18 @@
 layout: post
 title:  "Pate Brisee"
 date:   2018-04-06
-excerpt: "Quick! Quick! Make a quiche!"
+excerpt: "Quick! Quick! Quick! Make a quiche!"
 ---
 
-### Frequency: Sometimes
+## Frequency: Sometimes
 
-# Ingredients
+## Ingredients
 * 200g flour 
 * 100g cold butter cut into bits 
 * dash of salt 
 * 6cl cold water 
 
-# Preparation
+## Preparation
 1. Place the flour, pinch of salt and the butter cut into bits in the robot bowl 
 2. Mix until a sandy mix is obtained (might have to mix this part manually) 
 3. add the cold water and mix until a manageable doe 
