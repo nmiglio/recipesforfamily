@@ -4482,7 +4482,11 @@
 	}
 
 	@media print {
-		body {color: red; background: white;}
+		body {
+			color: red; 
+			background: white;
+			font-size: 1rem;
+		}
 		nav#nav {display: none}
 		.image.main {display: none}
 		.comments-wrapper {display: none}
