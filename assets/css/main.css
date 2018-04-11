@@ -4487,8 +4487,9 @@
 		.image.main {display: none}
 		.comments-wrapper {display: none}
 		.action {display: none}
-		footer {display: none}
+		footer#footer {display: none}
 		div#navPanel {display: none}
+		.button {display: none}
 		
-		h1 {font-size: 12pt}
+		.major.h1 {font-size: 9pt}
 	}
