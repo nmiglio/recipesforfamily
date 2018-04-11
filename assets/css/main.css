@@ -4485,14 +4485,22 @@
 		body {
 			color: green; 
 			background: white;
-			font-size: 1rem;
+			font-size: 10pt;
+		}
+		header.major > .date {
+    			font-size: 12pt;
 		}
 		nav#nav {display: none}
 		.image.main {display: none}
 		.comments-wrapper {display: none}
 		.action {display: none}
+		footer {display: none}
 		footer#footer {display: none}
 		div#navPanel {display: none}
 		.button {display: none}
-		#main > .post header.major > h1 {font-size: 14pt}
+		#main > .post {
+    			padding: 2rem 2rem 0rem 2rem;
+		}
+		#main > .post header.major > h1 {font-size: 20pt}
+		#main > .post header.major > h2 {font-size: 16pt}
 	}
