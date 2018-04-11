@@ -4484,5 +4484,6 @@
 	@media print {
 		body {color: red; background: white;}
 		div#comments-wrapper {display: none}
-		
+		div#"image main" {display: none}
+		nav#nav {display: none}
 	}
