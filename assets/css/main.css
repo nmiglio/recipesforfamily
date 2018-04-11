@@ -4485,9 +4485,9 @@
 		body {color: red; background: white;}
 		nav#nav {display: none}
 		.image.main {display: none}
-		div#comments-wrapper {display: none}
+		.comments-wrapper {display: none}
 		.action {display: none}
-		footer#footer {display: none}
+		footer {display: none}
 		div#navPanel {display: none}
 		
 		h1 {font-size: 12pt}
