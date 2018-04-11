@@ -4483,17 +4483,21 @@
 
 	@media print {
 		body {
-			color: blue; 
+			color: black; 
 			background: white;
 			font-size: 10pt;
 		}
 		
 		header  {
-			height: 3rem;
+			height: 2rem;
     			padding-bottom: 0rem;
     		}
 		
-		#header .logo {font-size: 1.25rem}
+		#header .logo {
+			font-size: 1.25rem;
+			padding: 0rem 1rem;
+		}
+		
 		header.major {
 		    margin: 0 0 2rem 0;
 		}   
