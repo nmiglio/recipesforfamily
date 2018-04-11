@@ -4483,7 +4483,7 @@
 
 	@media print {
 		body {
-			color: green; 
+			color: blue; 
 			background: white;
 			font-size: 10pt;
 		}
