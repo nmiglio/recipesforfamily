@@ -4487,9 +4487,8 @@
 			background: white;
 			font-size: 10pt;
 		}
-		header.major > .date {
-    			font-size: 12pt;
-		}
+		#header .logo {font-size: 1.25rem}
+		header.major > .date {font-size: 12pt}
 		nav#nav {display: none}
 		.image.main {display: none}
 		.comments-wrapper {display: none}
@@ -4501,6 +4500,10 @@
 		#main > .post {
     			padding: 2rem 2rem 0rem 2rem;
 		}
-		#main > .post header.major > h1 {font-size: 20pt}
+		#main > .post header.major > h1 {
+			font-size: 20pt;
+			margin-bottom: 1rem;
+		}
 		#main > .post header.major > h2 {font-size: 16pt}
+		header.major > p  {font-size: 16pt}
 	}
