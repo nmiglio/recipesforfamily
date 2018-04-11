@@ -4489,4 +4489,6 @@
 		.action {display: none}
 		footer#footer {display: none}
 		div#navPanel {display: none}
+		
+		h1 {font-size: 12pt}
 	}
