@@ -4487,8 +4487,23 @@
 			background: white;
 			font-size: 10pt;
 		}
+		
+		header  {
+			height: 3rem;
+    			padding-bottom: 0rem;
+    		}
+		
 		#header .logo {font-size: 1.25rem}
-		header.major > .date {font-size: 12pt}
+		header.major {
+		    margin: 0 0 2rem 0;
+		}   
+		
+		header.major > p  {font-size: 12pt} 
+		header.major > .date {
+			font-size: 12pt;
+			margin: 0 0 0 0;
+		}
+		
 		nav#nav {display: none}
 		.image.main {display: none}
 		.comments-wrapper {display: none}
@@ -4498,12 +4513,13 @@
 		div#navPanel {display: none}
 		.button {display: none}
 		#main > .post {
-    			padding: 2rem 2rem 0rem 2rem;
+    			padding: 2rem 2rem 1rem 2rem;
 		}
+		
 		#main > .post header.major > h1 {
-			font-size: 20pt;
-			margin-bottom: 1rem;
+			font-size: 22pt;
+			margin-bottom: 0rem;
 		}
-		#main > .post header.major > h2 {font-size: 16pt}
-		header.major > p  {font-size: 16pt}
+		h2 {font-size: 16pt}
+		div#copyright {display: none}
 	}
