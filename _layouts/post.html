@@ -43,6 +43,17 @@
       			<div class="image main"><img src="{{page.image | absolute_url}}" alt=""></div>
       			<p>{{content}}</p>
       		</section>
+
+	<!-- Footer -->
+	<footer>
+              	<ul class="actions">
+			<li><a href="javascript:window.print()" class="button">Print Recipes</a></li>
+		      	<li><a href="{{ "/blog/" | absolute_url }}" class="button">Back To The Recipes</a></li>
+              	</ul>
+	</footer>
+	</div>
+
+				<!-- Footer -->					
 {% if page.comments %}
           <div class="comments-wrapper">
           <div id="disqus_thread"></div>
@@ -70,16 +81,6 @@
         </div><!-- /.comments-wrapper -->
 					{% endif %}
 
-
-					<!-- Footer -->
-						<footer>
-              <ul class="actions">
-                <li><a href="{{ "/blog/" | absolute_url }}" class="button">Back To The Recipes</a></li>
-              </ul>
-						</footer>
-					</div>
-
-				<!-- Footer -->
         {% include foot.html %}
 
 			</div>
