@@ -4501,10 +4501,7 @@
     			padding-bottom: 0rem;
     		}
 		
-		#header .logo {
-			font-size: 1.25rem;
-			padding: 0rem 1rem;
-		}
+		#header .logo {display : none}
 		
 		header.major {
 		    margin: 0 0 2rem 0;
