@@ -4488,6 +4488,10 @@
 			font-size: 10pt;
 		}
 		
+		#wrapper > .bg {
+			background-color: white;
+		}
+		
 		#header  {
 			height: 2rem;
     			padding-bottom: 0rem;
