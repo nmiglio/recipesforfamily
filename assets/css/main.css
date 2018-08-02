@@ -4492,6 +4492,10 @@
 			background-color: white;
 		}
 		
+		#wrapper.fade-in:before {
+			background: #white;
+		}
+		
 		#header  {
 			height: 2rem;
     			padding-bottom: 0rem;
