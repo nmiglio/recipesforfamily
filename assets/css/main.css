@@ -4524,6 +4524,11 @@
 		footer#footer {display: none}
 		div#navPanel {display: none}
 		.button {display: none}
+		
+		#main {
+			width: 100%;
+		}
+		
 		#main > .post {
     			padding: 2rem 2rem 1rem 2rem;
 		}
