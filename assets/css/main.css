@@ -4496,7 +4496,8 @@
 			background: #white;
 		}
 		
-		#header  {
+		#header {display : none}
+		/* #header  {
 			height: 2rem;
     			padding-bottom: 0rem;
     		}
@@ -4512,7 +4513,8 @@
 			font-size: 12pt;
 			margin: 0 0 0 0;
 		}
-		
+		*/
+				
 		nav#nav {display: none}
 		.image.main {display: none}
 		.comments-wrapper {display: none}
